@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blackjack</title>
+	<link rel="stylesheet" href="libraries/css/main.css">
+
+</head>
+<body>
+
+	<div id="mesa">
+		<div id="Jogador1"></div>
+		<div id="Trunfos"></div>
+		<div id="Jogador2"></div>
+	</div>
+
+	<div id="DeckT">
+
+		<div id="trunfoAtivo"></div>
+		<button id="Usar" onclick="usarTrunfo(2)">Usar</button>
+		<button id="Desc" onclick="exibirDescricao()">Desc.</button>
+		<button id="Proximo" onclick="proximoTrunfo()">Próx.</button>
+	</div>
+
+	<button id="ComprarCarta" onclick="vezJogador();">Comprar Carta</button>
+	<button id="Passar" onclick="manter(2);">Manter</button>
+
+	<script src="libraries/javascript/javascript.js"></script>
+
+</body>
+</html>
